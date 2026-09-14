@@ -1,0 +1,223 @@
+{
+  "author": {
+    "nama": "Daerobi",
+    "status": "Mahasiswa IT, Universitas Pamulang",
+    "role": "Founder Buatin.biz.id — Web Developer & Vibe Coder",
+    "foto_profil": "FOTOPROFIELV1.jpeg",
+    "socials": {
+      "instagram": "https://www.instagram.com/dae.obiy?stkn=MTJxNGZ3YzBiYzdwcw==",
+      "github": "https://github.com/daerobi-devs"
+    }
+  },
+  "projects": [
+    {
+      "id": "buatin",
+      "card_title": "Buatin.biz.id",
+      "nama": "Buatin.biz.id",
+      "tagline": "Solusi Hemat & Cepat untuk Bisnis & Kuliah",
+      "deskripsi_singkat": "Website official untuk agensi pembuatan website dan landing page kilat (3-7 hari) ramah kantong bagi UMKM dan mahasiswa, lengkap dengan mockup browser showcase interaktif dan integrasi konsultasi WhatsApp langsung.",
+      "fitur_utama": [
+        "Interactive Mock Browser Showcase (Toko Online, Barbershop, Portfolio)",
+        "Kalkulator / Price Tier switch (Personal & UMKM vs Bisnis)",
+        "WhatsApp CTA Direct Booking",
+        "Desain responsif & dynamic animated backdrop"
+      ],
+      "tech_stack": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Responsive",
+        "WhatsApp API",
+        "Coolify"
+      ],
+      "link_live": "http://buatin.biz.id",
+      "link_repo": "https://github.com/daerobi-devs/Buatin",
+      "hosting": "Coolify / Homelab Proxmox",
+      "screenshot": "/screenshots/buatin-preview.png",
+      "screenshot_full": "/screenshots/buatin.png",
+      "screenshots_extra": [
+        "/screenshots/buatin-tab-resto.png",
+        "/screenshots/buatin-layanan.png"
+      ]
+    },
+    {
+      "id": "atlas",
+      "card_title": "Atlas — Student Hub",
+      "nama": "Atlas — Personal Dashboard & Student Hub",
+      "tagline": "Productivity Hub, Dynamic Schedule & Cloud Storage Offloading",
+      "deskripsi_singkat": "Sistem dashboard produktivitas dan akademik personal terintegrasi Google Drive REST API OAuth 2.0 (15 GB Cloud Storage offloading), kalender dinamis jadwal perkuliahan harian, manajemen tugas, dan integrasi Hermes AI agent.",
+      "fitur_utama": [
+        "Google Drive REST API OAuth 2.0 Cloud Storage Offloading",
+        "Interactive Daily Class Schedule & Mini Calendar",
+        "Supabase Auth & Database Synchronization",
+        "Cloudflare Tunnel & Coolify Docker deployment"
+      ],
+      "tech_stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Supabase",
+        "Google Drive API",
+        "Docker",
+        "Cloudflare"
+      ],
+      "link_live": "https://atlas.daeroom.my.id",
+      "link_repo": "https://github.com/daerobi-devs/Dashboard",
+      "hosting": "Coolify (Proxmox LXC) + Cloudflare Tunnel",
+      "screenshot": "/screenshots/atlas-preview.png",
+      "screenshot_full": "/screenshots/atlas.png",
+      "screenshots_extra": [
+        "/screenshots/atlas-login.png",
+        "/screenshots/atlas-dashboard.png"
+      ]
+    },
+    {
+      "id": "arrohman",
+      "card_title": "SMP Islam Arrohman Presensi",
+      "nama": "Presensi Digital SMP Islam Arrohman",
+      "tagline": "Sistem Presensi Fingerprint Real-time & Web Push PWA",
+      "deskripsi_singkat": "Portal presensi siswa dan monitoring kehadiran real-time berbasis mesin fingerprint ZKTeco / Solution X100C via ADMS iClock Push Protocol HTTP, dilengkapi PWA VAPID Web Push Notification Center dan TV Mode Live Attendance Display.",
+      "fitur_utama": [
+        "Integrasi Hardware Fingerprint ADMS iClock Protocol (/iclock/cdata)",
+        "Portal Siswa & Portal Staff Terpisah",
+        "PWA VAPID Web Push Notification Center",
+        "Real-time WebSocket Kehadiran via Supabase",
+        "Live Display TV Mode untuk monitor lobi sekolah"
+      ],
+      "tech_stack": [
+        "React",
+        "TanStack Router",
+        "TypeScript",
+        "Tailwind CSS",
+        "Supabase",
+        "VAPID Web Push",
+        "Vercel"
+      ],
+      "link_live": "https://arrohman.vercel.app",
+      "link_repo": "https://github.com/daerobii0223-lang/Absensi-siswa",
+      "hosting": "Vercel Serverless",
+      "screenshot": "/screenshots/arrohman-preview.png",
+      "screenshot_full": "/screenshots/arrohman.png",
+      "screenshots_extra": [
+        "/screenshots/arrohman-login-siswa.png",
+        "/screenshots/arrohman-login-staff.png"
+      ]
+    },
+    {
+      "id": "wagate",
+      "card_title": "WaGate AI & Chatbot",
+      "nama": "WaGate AI — WhatsApp Gateway & AI Bot",
+      "tagline": "All-in-One WhatsApp Gateway API & Gemini AI Auto-Reply Platform",
+      "deskripsi_singkat": "Platform WhatsApp Gateway all-in-one self-hosted dengan integrasi Baileys WhatsApp Multi-Device engine, Google Generative AI (Gemini) router cerdas, Model Context Protocol (MCP) server untuk coding assistant, dan webhook receiver.",
+      "fitur_utama": [
+        "Baileys WhatsApp Multi-Device Socket Manager & QR Auto-reconnect",
+        "Gemini AI Multi-Model Router & Persona Memory",
+        "Model Context Protocol (MCP) Server untuk integrasi AI IDE",
+        "Webhook Receiver (GitHub commits, Coolify deploys, Dashboard alerts)",
+        "Interactive API Docs Playground"
+      ],
+      "tech_stack": [
+        "Next.js",
+        "Node.js",
+        "Express",
+        "Baileys WA",
+        "Gemini AI",
+        "Docker",
+        "Coolify"
+      ],
+      "link_live": "https://wagate.daeroom.my.id/",
+      "link_repo": "https://github.com/daerobi-devs/Sidtem-whatsapap-gateway-dan-fonte",
+      "hosting": "Coolify Docker (Homelab Proxmox)",
+      "screenshot": "/screenshots/wagate-preview.png",
+      "screenshot_full": "/screenshots/wagate.png",
+      "screenshots_extra": [
+        "/screenshots/wagate-login.png",
+        "/screenshots/wagate-api-docs.png"
+      ]
+    }
+  ],
+  "skills_overview": {
+    "top_skills": [
+      {
+        "name": "React",
+        "count": 3,
+        "category": "Frontend"
+      },
+      {
+        "name": "TypeScript",
+        "count": 3,
+        "category": "Language"
+      },
+      {
+        "name": "Tailwind CSS",
+        "count": 3,
+        "category": "Frontend"
+      },
+      {
+        "name": "Supabase / PostgreSQL",
+        "count": 3,
+        "category": "Database & BaaS"
+      },
+      {
+        "name": "Next.js (App Router)",
+        "count": 2,
+        "category": "Fullstack"
+      },
+      {
+        "name": "Docker & Coolify Self-Hosting",
+        "count": 2,
+        "category": "DevOps / Homelab"
+      },
+      {
+        "name": "JavaScript (ES6+)",
+        "count": 2,
+        "category": "Language"
+      },
+      {
+        "name": "HTML5 & CSS3",
+        "count": 1,
+        "category": "Frontend"
+      },
+      {
+        "name": "TanStack Start / Nitro",
+        "count": 1,
+        "category": "Fullstack"
+      },
+      {
+        "name": "Google Gemini AI & LLM Integration",
+        "count": 1,
+        "category": "AI Engineering"
+      },
+      {
+        "name": "Model Context Protocol (MCP)",
+        "count": 1,
+        "category": "AI Protocol"
+      },
+      {
+        "name": "Hardware IoT & ADMS Push Protocol",
+        "count": 1,
+        "category": "IoT / Hardware"
+      },
+      {
+        "name": "PWA & VAPID Web Push",
+        "count": 1,
+        "category": "Frontend"
+      },
+      {
+        "name": "Google Drive REST API OAuth 2.0",
+        "count": 1,
+        "category": "Integration"
+      },
+      {
+        "name": "Node.js & Express",
+        "count": 1,
+        "category": "Backend"
+      },
+      {
+        "name": "Baileys WA Multi-Device Engine",
+        "count": 1,
+        "category": "Backend"
+      }
+    ]
+  }
+}
