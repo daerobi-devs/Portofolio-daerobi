@@ -1,0 +1,122 @@
+% ══════════════════════════════════════════════════════════════════════
+%  DAEROBI — SOFTWARE ENGINEER CURRICULUM VITAE
+%  Engine: pdflatex / xelatex
+% ══════════════════════════════════════════════════════════════════════
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1.4cm]{geometry}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{charter}
+
+% Color Definitions
+\definecolor{primary}{RGB}{15, 23, 42}
+\definecolor{accent}{RGB}{37, 99, 235}
+\definecolor{subtext}{RGB}{71, 85, 105}
+\definecolor{rulecolor}{RGB}{226, 232, 240}
+
+% Hyperlink Setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=accent,
+    urlcolor=accent
+}
+
+% Section Formatting
+\titleformat{\section}
+  {\large\bfseries\color{primary}\uppercase}
+  {}{0em}
+  {}[\vspace{1pt}\color{rulecolor}\titlerule\vspace{-4pt}]
+
+\titlespacing*{\section}{0pt}{10pt}{6pt}
+
+% Bullet List Formatting
+\setlist[itemize]{leftmargin=14pt, itemsep=2pt, topsep=2pt, parsep=0pt}
+
+\begin{document}
+\pagestyle{empty}
+
+% ── HEADER ─────────────────────────────────────────────────────────────
+\begin{center}
+    {\Huge\bfseries\color{primary} DAEROBI} \\[3pt]
+    {\large\bfseries\color{accent} Full-Stack Software Engineer \& AI Systems Architect} \\[5pt]
+    \small\color{subtext}
+    📍 Tangerang Selatan, Indonesia \quad \textbar \quad
+    ✉️ \href{mailto:daerobii0223@gmail.com}{daerobii0223@gmail.com} \quad \textbar \quad
+    📱 \href{https://wa.me/6285123607711}{+62 851-2360-7711} \quad \textbar \quad
+    🌐 \href{https://github.com/daerobi-devs}{github.com/daerobi-devs}
+\end{center}
+
+\vspace{4pt}
+
+% ── PROFESSIONAL SUMMARY ───────────────────────────────────────────────
+\section{Professional Summary}
+Software Engineer dengan keahlian mendalam pada arsitektur web modern full-stack (Next.js 15, React 19, Node.js), orkestrasi sistem AI Agentic, dan infrastruktur cloud / private homelab terdistribusi (Docker, Proxmox, Coolify). Memiliki rekam jejak mendirikan platform digital \textbf{Buatin.biz.id}, merancang sistem enterprise multi-tenant, dan memiliki dedikasi tinggi yang terbentuk melalui 5 tahun pendidikan asrama intensif serta disiplin endurance cycling.
+
+% ── WORK EXPERIENCE ────────────────────────────────────────────────────
+\section{Work Experience}
+
+\textbf{Founder \& Lead Software Engineer} \hfill \color{subtext}\textbf{2025 -- Present}\\
+\color{accent}\textit{Buatin.biz.id --- Digital Agency Platform \& Automation Solutions} \color{black}
+\begin{itemize}
+    \item Mendirikan dan memimpin pengembangan platform digital agensi terpadu untuk transformasi teknologi UMKM dan mahasiswa.
+    \item Mengimplementasikan arsitektur web modern berbasis Next.js 15, React 19, dan Tailwind CSS dengan fokus performa optimal.
+    \item Mengintegrasikan sistem manajemen project terotomatisasi dan gateway pembayaran digital untuk operasional efisien.
+\end{itemize}
+
+\vspace{4pt}
+
+\textbf{Autonomous AI \& Cloud Infrastructure Architect} \hfill \color{subtext}\textbf{2025 -- Present}\\
+\color{accent}\textit{Independent / Private Homelab} \color{black}
+\begin{itemize}
+    \item Mengorkestrasi pipeline multi-agent (Google Antigravity, Claude 3.7, Hermes) untuk continuous development and testing.
+    \item Mengelola server private homelab berbasis Proxmox VE, Coolify PaaS, Docker containerization, dan Cloudflare Tunnels.
+\end{itemize}
+
+% ── FEATURED PROJECTS ──────────────────────────────────────────────────
+\section{Featured Projects}
+
+\textbf{Buatin.biz.id Platform} \textbar{} \textit{Next.js 15, React 19, Tailwind CSS, Framer Motion} \hfill \color{subtext}\textbf{2025}\\
+Platform digital agensi modern dengan katalog layanan terintegrasi, animasi performan, dan performa Core Web Vitals tinggi.
+
+\vspace{3pt}
+
+\textbf{Atlas Enterprise Resource Dashboard} \textbar{} \textit{React, Node.js, Express, PostgreSQL} \hfill \color{subtext}\textbf{2025}\\
+Dashboard analitik dan manajemen inventori bisnis enterprise untuk memantau performa operasional secara terpusat dan real-time.
+
+\vspace{3pt}
+
+\textbf{Ar-Rohman Smart School Portal} \textbar{} \textit{Next.js, TypeScript, Tailwind CSS, Role-based Auth} \hfill \color{subtext}\textbf{2024}\\
+Portal sistem informasi sekolah dengan autentikasi multi-role (Staf, Guru, Siswa), rekapitulasi nilai digital, dan absensi otomatis.
+
+\vspace{3pt}
+
+\textbf{WA-Gate Automation Microservice} \textbar{} \textit{Node.js, WhatsApp Web API, Webhooks} \hfill \color{subtext}\textbf{2024}\\
+Microservice otomasi pesan WhatsApp untuk pengiriman OTP cepat, notifikasi invoice otomatis, dan integrasi webhook eksternal.
+
+% ── TECHNICAL SKILLS ───────────────────────────────────────────────────
+\section{Technical Skills}
+\begin{itemize}
+    \item \textbf{Frontend \& UI:} TypeScript, JavaScript, Next.js 15 (App Router), React 19, Tailwind CSS, Framer Motion, Remotion, HTML5/CSS3
+    \item \textbf{Backend \& Database:} Node.js, Express, RESTful APIs, PostgreSQL, MySQL, Redis, Supabase, Auth \& Security
+    \item \textbf{DevOps \& Cloud:} Docker, Coolify PaaS, Proxmox VE, Linux / Bash, Nginx, Caddy, Cloudflare Tunnels, Git / GitHub CI/CD
+    \item \textbf{AI \& Agentic:} Agentic Pipelines, Multi-Model LLM Orchestration, Prompt Engineering, Test-Driven Development (TDD)
+\end{itemize}
+
+% ── EDUCATION ──────────────────────────────────────────────────────────
+\section{Education \& Background}
+
+\textbf{S1 Teknik Informatika (Informatics / Computer Science)} \hfill \color{subtext}\textbf{2024 -- Present}\\
+\textit{Universitas Pamulang} \hfill Tangerang Selatan, Indonesia\\
+{\small Fokus studi: Rekayasa Perangkat Lunak, Struktur Data, Komputasi Terdistribusi, dan Arsitektur Web.}
+
+\vspace{3pt}
+
+\textbf{Pendidikan Asrama Intensif (5-Year Boarding Tenacity)} \hfill \color{subtext}\textbf{2017 -- 2022}\\
+{\small Fondasi disiplin mental, integritas, dan manajemen kepemimpinan mandiri selama 5 tahun pendidikan asrama.}
+
+\end{document}
