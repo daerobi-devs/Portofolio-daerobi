@@ -9,7 +9,12 @@ RUN apk add --no-cache libc6-compat
 WORKDIR /app
 
 COPY package.json package-lock.json* ./
-RUN npm ci
+# Konfigurasi retry network agar kebal terhadap socket drop / ECONNRESET di VPS
+RUN npm config set fetch-retries 5 \
+    && npm config set fetch-retry-mintimeout 20000 \
+    && npm config set fetch-retry-maxtimeout 120000 \
+    && (npm ci --no-audit || npm install --no-audit)
+
 
 # ── Stage 2: Build ────────────────────────────────────
 FROM node:20-alpine AS builder
