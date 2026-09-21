@@ -134,6 +134,42 @@
         "/screenshots/wagate-login.png",
         "/screenshots/wagate-api-docs.png"
       ]
+    },
+    {
+      "id": "ngodingpakeprd",
+      "card_title": "NgodingPakePRD",
+      "nama": "NgodingPakePRD — AI PRD Studio",
+      "tagline": "Generator PRD Standar Industri untuk AI Coding Agent",
+      "deskripsi_singkat": "Platform SaaS web app untuk mengubah ide mentah menjadi PRD terstruktur, 5 blueprint arsitektur visual (C4, Sequence, ERD, State Machine, Mindmap), papan Kanban otonom, dan MCP Server terisolasi — siap dieksekusi langsung oleh Cursor, Claude Code, Google Antigravity, dan Windsurf.",
+      "fitur_utama": [
+        "AI PRD Generator dengan Multi-Model Routing (Gemini Flash 3.5–3.8 + fallback chain)",
+        "5 Diagram Arsitektur Otomatis: C4, Sequence, ERD, State Machine, Feature Mindmap (.mmd)",
+        "Papan Kanban Otonom Real-time — Live Sync task coding agent dari To-Do hingga Done",
+        "Server MCP Terisolasi (JSON-RPC 2.0) — hubungkan langsung ke Cursor / Claude Code / Windsurf",
+        "Multi-API-Key Pool + Exponential Backoff Retry — zero-downtime reliability",
+        "Auth via Supabase SSR + Token History per user"
+      ],
+      "tech_stack": [
+        "Next.js 16",
+        "React 19",
+        "TypeScript",
+        "Tailwind CSS v4",
+        "Supabase",
+        "Google Gemini AI",
+        "MCP Protocol",
+        "Mermaid.js",
+        "Docker",
+        "Coolify"
+      ],
+      "link_live": "https://ngodingpakeprd.daeroom.my.id/",
+      "link_repo": "https://github.com/daerobi-devs/PAKEPRDAJA",
+      "hosting": "Coolify Docker (Homelab Proxmox)",
+      "screenshot": "/screenshots/ngodingpakeprd-preview.png",
+      "screenshot_full": "/screenshots/ngodingpakeprd.png",
+      "screenshots_extra": [
+        "/screenshots/ngodingpakeprd-diagram.png",
+        "/screenshots/ngodingpakeprd-kanban.png"
+      ]
     }
   ],
   "skills_overview": {
