@@ -7,6 +7,7 @@ import { GitHubIcon } from "./Icons";
 import { ExternalLink, ArrowUpRight, Globe, X, Layers } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 import ScrollReveal from "./ScrollReveal";
+import TechBadge from "./TechBadge";
 
 export default function Projects() {
   const [activeModalProject, setActiveModalProject] = useState<any | null>(null);
@@ -108,15 +109,10 @@ export default function Projects() {
                     </p>
                   </div>
 
-                  {/* Tech Stack Badges (Light Mode) */}
+                  {/* Tech Stack Badges with Official Brand SVG Icons */}
                   <div className="mt-6 flex flex-wrap gap-1.5 pt-1">
                     {proj.tech_stack.map((tech: string) => (
-                      <span
-                        key={tech}
-                        className="px-2.5 py-1 rounded-md bg-neutral-100 hover:bg-neutral-200/80 text-neutral-700 text-xs font-medium border border-neutral-200/60 transition-colors"
-                      >
-                        {tech}
-                      </span>
+                      <TechBadge key={tech} name={tech} />
                     ))}
                   </div>
                 </div>

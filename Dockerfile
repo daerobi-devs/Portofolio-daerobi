@@ -38,8 +38,12 @@ ENV NEXT_TELEMETRY_DISABLED=1
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
 
-# Copy public assets
-COPY --from=builder /app/public ./public
+# Copy data and public assets with ownership
+COPY --from=builder --chown=nextjs:nodejs /app/data ./data
+COPY --from=builder --chown=nextjs:nodejs /app/public ./public
+
+# Ensure public/uploads exists and is writable by nextjs
+RUN mkdir -p ./public/uploads && chown -R nextjs:nodejs ./public ./data
 
 # Next.js standalone output
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./

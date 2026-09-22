@@ -1,0 +1,79 @@
+{
+  "settings": {
+    "showBottomBar": false,
+    "showCategories": false,
+    "title": "Moments & Chronicles",
+    "subtitle": "Life Beyond The Screen",
+    "description": "Koleksi visual perjalanan, ketahanan fisik di jalan raya, eksplorasi perangkat keras homelab, dan fragmen cerita personal di luar kode."
+  },
+  "moments": [
+    {
+      "id": "moment-1790094644004",
+      "title": "fot",
+      "category": "cycling",
+      "categoryLabel": "Cycling",
+      "date": "2026",
+      "location": "ibukota",
+      "image": "/api/moments/image/1790094644002-fot.webp",
+      "aspectRatio": "1:1",
+      "aspectRatioValue": "1/1",
+      "aspectClass": "aspect-square",
+      "caption": "",
+      "colSpan": "col-span-2"
+    },
+    {
+      "id": "moment-1790095403948",
+      "title": "sore",
+      "category": "life",
+      "categoryLabel": "Life",
+      "date": "2026",
+      "location": "",
+      "image": "/api/moments/image/1790095403947-sore.webp",
+      "aspectRatio": "9:16",
+      "aspectRatioValue": "9 / 16",
+      "aspectClass": "aspect-[9/16]",
+      "caption": "",
+      "colSpan": "col-span-1"
+    },
+    {
+      "id": "moment-1790095512008",
+      "title": "projek",
+      "category": "life",
+      "categoryLabel": "Life",
+      "date": "2026",
+      "location": "",
+      "image": "/api/moments/image/1790095512007-projek.webp",
+      "aspectRatio": "16:9",
+      "aspectRatioValue": "16 / 9",
+      "aspectClass": "aspect-[16/9]",
+      "caption": "",
+      "colSpan": "col-span-1"
+    },
+    {
+      "id": "moment-4",
+      "title": "Campus Informatics Journey",
+      "category": "life",
+      "categoryLabel": "Life",
+      "date": "2024",
+      "location": "Universitas Pamulang",
+      "image": "/profile.jpeg",
+      "aspectRatio": "4:5",
+      "aspectClass": "aspect-[4/5]",
+      "caption": "Momen perkuliahan S1 Teknik Informatika. Berdiskusi tentang struktur data, algoritma komputasi, dan arsitektur rekayasa perangkat lunak modern bersama rekan mahasiswa.",
+      "colSpan": "col-span-2"
+    },
+    {
+      "id": "moment-1790095327082",
+      "title": "dgdsg",
+      "category": "cycling",
+      "categoryLabel": "cycling",
+      "date": "2026",
+      "location": "Indonesia",
+      "image": "/api/moments/image/1790095327080-dgdsg.webp",
+      "aspectRatio": "4:3",
+      "aspectRatioValue": "4/3",
+      "aspectClass": "aspect-[4/3]",
+      "caption": ""
+    }
+  ]
+}

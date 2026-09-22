@@ -5,6 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: '*',
       allow: '/',
+      disallow: ['/moments/studio-dae-admin'],
     },
     sitemap: 'https://daeroom.my.id/sitemap.xml',
   };
