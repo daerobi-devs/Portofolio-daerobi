@@ -5,7 +5,8 @@
 
 # ── Stage 1: Install deps ──────────────────────────────
 FROM node:20-alpine AS deps
-RUN apk add --no-cache libc6-compat
+# Pasang libc6-compat dengan retry loop & toleransi transient DNS di VPS
+RUN (for i in 1 2 3; do apk add --no-cache libc6-compat && break || sleep 2; done) || true
 WORKDIR /app
 
 COPY package.json package-lock.json* ./
