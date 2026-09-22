@@ -170,6 +170,42 @@
         "/screenshots/ngodingpakeprd-diagram.png",
         "/screenshots/ngodingpakeprd-kanban.png"
       ]
+    },
+    {
+      "id": "paymentgateway",
+      "card_title": "Mandiri Private Gateway",
+      "nama": "Mandiri Private Gateway (MPG) — QRIS 0% MDR",
+      "tagline": "Private Dynamic QRIS Engine, Autonomous Android Notification Acquirer & Instant Webhook",
+      "deskripsi_singkat": "Platform payment gateway mandiri tanpa potongan biaya transaksi (0% MDR fee). Mengubah QRIS statis menjadi dinamis secara otomatis (EMVCo Tag 54), dilengkapi aplikasi Android Notification Listener untuk deteksi mutasi bank real-time dan dispatch webhook berstempel HMAC-SHA256.",
+      "fitur_utama": [
+        "Dynamic QRIS Engine — Generator QRIS dinamis berbasis standar EMVCo Tag 54 + CRC16 checksum",
+        "0% MDR Fee — Settlement instan T+0 langsung ke rekening Bank Mandiri / giro tanpa potongan perantara",
+        "Android Notification Acquirer — Background listener APK native untuk verifikasi mutasi bank otomatis",
+        "HMAC-SHA256 Security Signature — Verifikasi payload webhook anti manipulasi data pembayaran",
+        "Supabase Realtime WebSockets — Pembaruan status pembayaran lunas dalam hitungan detik (<500ms)",
+        "Auto-Retry Webhook Queue — Mekanisme pengiriman ulang otomatis jika server merchant offline"
+      ],
+      "tech_stack": [
+        "Next.js 16",
+        "React 19",
+        "TypeScript",
+        "Tailwind CSS v4",
+        "Supabase",
+        "Android Native",
+        "QRIS EMVCo",
+        "HMAC-SHA256",
+        "Docker",
+        "Coolify"
+      ],
+      "link_live": "https://paymentgateway.daeroom.my.id/",
+      "link_repo": "https://github.com/daerobi-devs/Pyament-Gateway-Qris",
+      "hosting": "Coolify Docker (Homelab Proxmox)",
+      "screenshot": "/screenshots/paymentgateway-preview.png",
+      "screenshot_full": "/screenshots/paymentgateway.png",
+      "screenshots_extra": [
+        "/screenshots/paymentgateway-checkout.png",
+        "/screenshots/paymentgateway-architecture.png"
+      ]
     }
   ],
   "skills_overview": {
